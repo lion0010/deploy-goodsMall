@@ -5,7 +5,7 @@ const handler = createHandler({ path: '/webhook', secret: 'lao7' })
     // 上面的 secret 保持和 GitHub 后台设置的一致
 
 const port = 9988
-const projects = ['www.lao7.site', 'goodsMall', 'deploy','deploy-goodsMall']
+const projects = ['www.lao7.site', 'goodsMall']
 
 const projectHandler = (event, action) => {
     const project = event.payload.repository.name // 仓库的名字
