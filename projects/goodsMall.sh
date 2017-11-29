@@ -1,11 +1,11 @@
 #!/bin/bash
  
-WEB_PATH='/home/wwwroot/vnshop/'
-WEB_PATH_CLIENT='/home/wwwroot/vnshop/client'
-WEB_USER='www'
-WEB_USERGROUP='www'
+WEB_PATH='/home/wwwroot/default/goodsMall/'
+WEB_PATH_CLIENT='/home/wwwroot/default/goodsMall/client'
+WEB_USER='root'
+WEB_USERGROUP='root'
 # we can do 
-echo "Start deployment vx.itnote.cn"
+echo "Start deployment www.lao7.site"
 cd $WEB_PATH
 echo "pulling source code..."
 # git reset --hard origin/release
